@@ -8,7 +8,7 @@ A program futás folyamán bekéri a puzzle aktuális helyzetét különféle m�
 - Az ötödik lépésben már az egyes rétegek összes elemére szüksége van a programnak, a sarok-elemeket a negyedik lépés szerint kell beolvasni, viszont ebben a lépésben már felváltva vannak beolvasva a sarok és él-elemek. Az él elemeket ugyan csak a domináns színével kezdjük("y"/"w") és ezután befejezzük a másodlagos színével(a negyedik lépésben leírt színkódolás szerint). Ez a lépés is követi a szokásos beolvasási sorrendet. Egy példa erre a bemenetre: "ygr yg yog yo ybo yb yrb yr".  
 
 A bemenetek megadását követően a program 2 dolgot csinál kimenet szempontjából. Egyrészt kiírja a végrehajtandó algoritmust a következő formában: "(t/b)    {algoritmus}". Az első kifejezés végrehajtása után kerül a puzzle olyan elforgatásba, hogy az algoritmus elvégzése a keresett eredménynel járjon. A kimenetként visszaadott kifejezés és algoritmus magyarázata "A puzzle alapjai" alcím 3. paragrafusában található.  
-Az algoritmuson kívül még egy illusztrációt is visszaad a puzzle aktuális helyzetéről
+Az algoritmuson kívül még egy illusztrációt is visszaad a program a puzzle aktuális helyzetéről, ez egy felső és egy alsó nézet, értelemszerűen a visszaadott képen, a felső ábra a felső nézet, az alsó ábra az alsó nézet. Ha a "felső réteg" van felül, és a narancssárga oldal néz előre, akkor a puzzle felénk, vagy a másik irányba való döntésével tudjuk elérni azt a nézetet, amit a visszaadott kép ábrázol
 ## A program működése
 
 ## A puzzle alapjai
